@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  max-height: 100vh;
+}
+
+.main_logo {
+  position: absolute;
+  top: 2.5em;
+  left: 2.5em;
+  width: 10em;
+  height: auto;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+}
+
+.text {
+  display: block;
+  width: 100vw;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 8px;
+  font-size: 3.6em;
+  padding-bottom: 20px;
+  font-family: 'Montserrat';
+}
+
+.sub-text {
+  display: block;
+  color: #fff;
+  font-family: 'Barlow Condensed';
+  font-size: 1.3em;
+  letter-spacing: 4px;
+}
+
+.img_container {
+  display: block;
+  width: 100vw;
+  position: absolute;
+  bottom: 1.5em;
+}
+
+.sub_logo {
+  width: 10em;
+}
+
+.bg {
+  /*background-color: #fff;*/
+  background: url('images/bg5.jpg') repeat fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.bg_cover {
+  background: #00000030;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
